@@ -12,6 +12,6 @@ import java.util.List;
 @NoArgsConstructor
 public class SearchResponse {
     private Iterable<WebSiteService> services;
-    private Iterable<WebSiteServiceProvider> providers;
+    private Iterable<WebSiteServiceProviderDTO> providers;
 
 }
